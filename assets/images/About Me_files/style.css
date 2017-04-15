@@ -1,6 +1,7 @@
 body {
     background: #eeeeee;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
 }
 
 .main_header {
@@ -8,7 +9,6 @@ body {
     width: 100%;
     border-bottom: 1px solid #777777;
     padding-top: 20px;
-
 }
 
 .logo {
@@ -19,8 +19,8 @@ body {
     color: #ffffff;
     font-size: 30px;
     margin-left: 80px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    position: relative;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    position:relative;
     left: 60px;
 }
 
@@ -29,12 +29,12 @@ ul {
     float: right;
     position: relative;
     bottom: 50px;
-    right: 130px;
+    right: 100px;
     clear: both;
     margin-right: 10%;
     padding-top: 10px;
     text-decoration: none;
-    
+
 }
 
 li {
@@ -42,41 +42,41 @@ li {
     padding: 10px;
     color: #777777;
     text-decoration: none;
-
 }
 
 .content {
     margin-left: 10%;
     margin-right: 40%;
-    padding: 20px;
+    padding:20px;
     background: #ffffff;
     color: #777777;
     position: relative;
-    top: 30px;
+    top: 50px;
     float: left;
-    
+
 }
 
-
-.header {
+.about_me {
     color: #4aaaa5;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 25px;
     padding-left: 10px;
-    border-bottom: 2px solid #777777;
+    border-bottom: 1px solid #777777;
+
 }
 
 .me_photo {
-    height: 200px;
-    width: 200px;
+    height:200px;
+    width:200px;
     margin: 30px 20px 20px 10px;
     float: left;
     clear: both;
+
 }
 
-p {
+ p {
     color: #777777;
     line-height: 200%;
     padding-top: 30px;
@@ -86,20 +86,16 @@ p {
     float: right;
     background: #ffffff;
     position: relative;
-    bottom: 580px;
-    right: 250px;
-    width: 220px;
-    height: 110px;
+    bottom: 578px;
+    right: 220px;
+    width:220px;
+    height: 100px;
     padding: 20px;
     color: #4aaaa5;
     text-align: center;
     font-size: 25px;
-    font-family:'Georgia', Times, 'Times New Roman', serif;
-}
 
-.border {
-    border-bottom: 2px solid #777777;
-    padding-bottom: 8px;
+
 }
 
 .icons {
@@ -107,8 +103,33 @@ p {
     width: 60px;
     margin: 1px;
     display: inline-block;
-    padding-top: 15px;
+    padding-top: 15px;   
 }
+
+
+/*.icon2 {
+    height: 60px;
+    width: 60px;
+    margin: 1px;
+    float: left;    
+}
+
+
+.icon3 {
+    height: 60px;
+    width: 60px;
+    margin: 1px;
+    float: left;    
+}
+
+
+#icons {
+    display: inline;
+    clear: both;
+    float: left;
+    
+}*/
+
 
 footer {
     background: #666666;
@@ -116,29 +137,9 @@ footer {
     text-align: center;
     padding: 30px;
     clear: both;
+    position: relative;
+    top:100px;
     border-top: 10px solid #4aaaa5;
-}
-
-#content {
-
 
 }
-
-.container {
-    margin-left: 10%;
-    margin-right: 40%;
-
-
-}
-
-input {
-    float: left;
-}
-
-.name {
-    
-}
-
-
-
 
